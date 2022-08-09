@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+rm -fr ../.telegram-cli
+screen -d -m -S NNNNH ./Runf R
