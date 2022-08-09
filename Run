@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd $HOME/Botf
+while(true) do
+rm -fr ../.telegram-cli
+screen -S Botf -X kill
+screen -S Botf ./Runn
+done
